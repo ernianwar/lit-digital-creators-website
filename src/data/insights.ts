@@ -17,7 +17,7 @@ export const insights: InsightPost[] = [
     date: "Jun 15, 2026",
     readingTime: "4 min read",
     category: "Digital Transformation",
-    image: "/images/insights/petronas-lubricants.jpeg",
+    image: "/Images/insights/petronas-lubricants.jpeg",
     linkedinUrl: "https://www.linkedin.com/posts/lit-digital-creators_litdigitalcreators-ldctraining-digitalskillsforalitfuture-activity-7422080980192088064-ZZVP",
   },
   {
@@ -27,7 +27,7 @@ export const insights: InsightPost[] = [
     date: "Jun 1, 2026",
     readingTime: "4 min read",
     category: "HRDC",
-    image: "/images/insights/upskilling.jpeg",
+    image: "/Images/insights/upskilling.jpeg",
     linkedinUrl: "https://www.linkedin.com/posts/lit-digital-creators_litdigitalcreators-ldctraining-digitalskillsforalitfuture-activity-7422080980192088064-ZZVP",
   },
   {
@@ -37,7 +37,7 @@ export const insights: InsightPost[] = [
     date: "Jul 15, 2026",
     readingTime: "7 min read",
     category: "AI Strategy",
-    image: "/images/insights/ai-for-leaders.jpeg",
+    image: "/Images/insights/ai-for-leaders.jpeg",
     linkedinUrl: "https://www.linkedin.com/posts/lit-digital-creators_litdigitalcreators-litventure-aiadoption-activity-7483377285916487680-GCbU",
   },
 ]
