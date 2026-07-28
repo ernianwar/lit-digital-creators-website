@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   verification: {
-    google: "",
+    google: "google8b64bc3fbbc9c593",
   },
   icons: {
     icon: "/Images/Logo/LDC_Logo.png",
