@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: "article",
     images: [
       {
-        url: "/images/insights/ai-for-leaders.jpeg",
+        url: "/Images/insights/ai-for-leaders.jpeg",
         width: 1200,
         height: 630,
         alt: "Why Every Business Leader Needs an AI Adoption Strategy in 2026",
@@ -42,7 +42,26 @@ export const metadata: Metadata = {
     title: "Why Every Business Leader Needs an AI Adoption Strategy in 2026",
     description:
       "A strategic guide for CEOs and executives on building an AI adoption strategy that drives measurable business outcomes, avoids common pitfalls, and prepares organisations for the future of work.",
-    images: ["/images/insights/ai-for-leaders.jpeg"],
+    images: ["/Images/insights/ai-for-leaders.jpeg"],
+  },
+}
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Why Every Business Leader Needs an AI Adoption Strategy in 2026",
+  description:
+    "A strategic guide for CEOs and executives on building an AI adoption strategy that drives measurable business outcomes, avoids common pitfalls, and prepares organisations for the future of work.",
+  image: "https://litdigitalcreators.com/Images/insights/ai-for-leaders.jpeg",
+  datePublished: "2026-07-15",
+  dateModified: "2026-07-15",
+  author: {
+    "@type": "Organization",
+    name: "LIT Digital Creators",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "LIT Digital Creators",
   },
 }
 
@@ -51,11 +70,15 @@ export default function AIForLeadersMalaysiaPage() {
     <>
       <Navbar />
       <main className="min-h-screen pt-24">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <article>
           <div className="container max-w-4xl mx-auto px-4 py-8 md:py-12">
             <div className="relative w-full aspect-[2/1] md:aspect-[3/1] rounded-2xl overflow-hidden bg-brand/5 mb-8 md:mb-10">
               <Image
-                src="/images/insights/ai-for-leaders.jpeg"
+                src="/Images/insights/ai-for-leaders.jpeg"
                 alt="Business leader analysing AI strategy and digital transformation roadmap"
                 fill
                 className="object-cover"

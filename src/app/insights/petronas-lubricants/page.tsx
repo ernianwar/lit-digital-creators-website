@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: "article",
     images: [
       {
-        url: "/images/insights/petronas-lubricants.jpeg",
+        url: "/Images/insights/petronas-lubricants.jpeg",
         width: 1200,
         height: 630,
         alt: "The Future of Work: Why Digital Skills Matter More Than Ever",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "The Future of Work: Why Digital Skills Matter More Than Ever",
     description:
       "Explore the key digital competencies your workforce needs to thrive in an era of rapid technological change.",
-    images: ["/images/insights/petronas-lubricants.jpeg"],
+    images: ["/Images/insights/petronas-lubricants.jpeg"],
   },
 }
 
@@ -55,7 +55,7 @@ export default function PetronasLubricantsPage() {
           <div className="container max-w-4xl mx-auto px-4 py-8 md:py-12">
             <div className="relative w-full aspect-[2/1] md:aspect-[3/1] rounded-2xl overflow-hidden bg-brand/5 mb-8 md:mb-10">
               <Image
-                src="/images/insights/petronas-lubricants.jpeg"
+                src="/Images/insights/petronas-lubricants.jpeg"
                 alt="Professionals collaborating in a modern digital workplace"
                 fill
                 className="object-cover"

@@ -139,7 +139,7 @@ export default function CommunityPage() {
                       className="aspect-square rounded-2xl overflow-hidden"
                     >
                       <Image
-                        src={`/images/community/${file}`}
+                        src={`/Images/community/${file}`}
                         alt=""
                         width={320}
                         height={320}
