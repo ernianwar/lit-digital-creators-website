@@ -68,12 +68,13 @@ export default function ArticleLayout({ post, children }: ArticleLayoutProps) {
                 className="group p-6 bg-white rounded-2xl border border-border/60 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col"
               >
                 <div className="w-full aspect-[16/9] rounded-xl overflow-hidden mb-5 relative bg-brand/5">
-                  <Image
-                    src={relatedPost.image}
-                    alt={relatedPost.title}
-                    fill
-                    className="object-cover"
-                  />
+                <Image
+                  src={relatedPost.image}
+                  alt={relatedPost.title}
+                  fill
+                  className="object-cover"
+                  loading="lazy"
+                />
                 </div>
                 <Badge variant="secondary" className="self-start mb-3">
                   {relatedPost.category}

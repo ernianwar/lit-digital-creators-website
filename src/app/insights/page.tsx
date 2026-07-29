@@ -36,6 +36,7 @@ export default function InsightsPage() {
                       alt={post.title}
                       fill
                       className="object-cover"
+                      loading="lazy"
                     />
                   </div>
 

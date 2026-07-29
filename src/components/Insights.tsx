@@ -51,6 +51,7 @@ export default function Insights() {
                   src={post.image}
                   alt={post.title}
                   className="absolute inset-0 w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
 

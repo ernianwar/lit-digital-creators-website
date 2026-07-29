@@ -288,6 +288,7 @@ export default function UpskillingVsRehiringPage() {
                           alt={relatedPost.title}
                           fill
                           className="object-cover"
+                          loading="lazy"
                         />
                       </div>
                       <Badge variant="secondary" className="self-start mb-3">

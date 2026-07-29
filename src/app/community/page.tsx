@@ -144,6 +144,7 @@ export default function CommunityPage() {
                         width={320}
                         height={320}
                         className="w-full h-full object-cover"
+                        loading="lazy"
                       />
                     </div>
                   ))}
