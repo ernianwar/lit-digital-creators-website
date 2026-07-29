@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/about",
     "/corporate-training",
+    "/hrdc-training",
     "/community",
     "/insights",
     "/insights/ai-for-leaders-malaysia",
