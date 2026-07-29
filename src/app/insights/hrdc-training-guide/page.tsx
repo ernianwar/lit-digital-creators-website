@@ -133,11 +133,15 @@ export default function HrdcTrainingGuidePage() {
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3 text-muted">
                       <Check className="h-5 w-5 text-brand shrink-0 mt-0.5" />
-                      <span><strong className="text-foreground">Category 1</strong> — Employers with 50+ employees: 1% of monthly wages</span>
+                      <span><strong className="text-foreground">Category 1 (Mandatory)</strong> — Employers with 10 or more Malaysian employees must register and pay 1% of monthly wages (basic salary plus fixed allowances)</span>
                     </li>
                     <li className="flex items-start gap-3 text-muted">
                       <Check className="h-5 w-5 text-brand shrink-0 mt-0.5" />
-                      <span><strong className="text-foreground">Category 2</strong> — Employers with 10–49 employees (voluntary): 0.5% of monthly wages</span>
+                      <span><strong className="text-foreground">Category 2 (Voluntary)</strong> — Employers with 5 to 9 Malaysian employees can choose to register and pay 0.5% of monthly wages</span>
+                    </li>
+                    <li className="flex items-start gap-3 text-muted">
+                      <Check className="h-5 w-5 text-brand shrink-0 mt-0.5" />
+                      <span><strong className="text-foreground">Exempt Category</strong> — Employers with fewer than 5 Malaysian employees are generally exempt from registration and contributions</span>
                     </li>
                   </ul>
                 </div>
@@ -205,7 +209,7 @@ export default function HrdcTrainingGuidePage() {
                   <div className="bg-[#FAFAFA] border border-border/60 rounded-xl p-5">
                     <p className="font-semibold text-foreground mb-1">Step 2: Select a Registered Provider</p>
                     <p className="text-muted text-sm leading-relaxed">
-                      Choose an HRDC-registered training provider that offers programs matching your needs. Verify the provider's registration status on the HRDC portal.
+                      Choose an HRDC-registered training provider that offers programs matching your needs (e.g. <strong className="text-foreground">LIT Digital Creators</strong>). Verify the provider's registration status on the HRDC portal.
                     </p>
                   </div>
                   <div className="bg-[#FAFAFA] border border-border/60 rounded-xl p-5">
