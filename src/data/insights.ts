@@ -40,4 +40,14 @@ export const insights: InsightPost[] = [
     image: "/Images/insights/ai-for-leaders.jpeg",
     linkedinUrl: "https://www.linkedin.com/posts/lit-digital-creators_litdigitalcreators-litventure-aiadoption-activity-7483377285916487680-GCbU",
   },
+  {
+    slug: "hrdc-training-guide",
+    title: "A Complete Guide to HRDC Claimable Training in Malaysia",
+    excerpt: "Understand how HRDC claimable training works, how to maximise your levy, and why leading organisations invest in structured workforce upskilling.",
+    date: "Jul 28, 2026",
+    readingTime: "5 min read",
+    category: "HRDC",
+    image: "/Images/insights/petronas-lubricants.jpeg",
+    linkedinUrl: "https://www.linkedin.com/company/lit-digital-creators/",
+  },
 ]
