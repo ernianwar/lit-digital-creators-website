@@ -133,14 +133,19 @@ export default function CommunityPage() {
                 className="lg:col-span-2 flex items-center justify-center"
               >
                 <div className="grid grid-cols-2 gap-4 w-full max-w-[320px]">
-                  {["1.jpg", "2.jpg", "3.jpg", "4.jpg"].map((file) => (
+                  {[
+                    { file: "1.jpg", alt: "Participants collaborating in an AI literacy workshop" },
+                    { file: "2.jpg", alt: "Professionals engaging in a digital skills training session" },
+                    { file: "3.jpg", alt: "Community members networking at a lifelong learning event" },
+                    { file: "4.jpg", alt: "Strategic partnership meeting between organisations" },
+                  ].map((img) => (
                     <div
-                      key={file}
+                      key={img.file}
                       className="aspect-square rounded-2xl overflow-hidden"
                     >
                       <Image
-                        src={`/Images/community/${file}`}
-                        alt=""
+                        src={`/Images/community/${img.file}`}
+                        alt={img.alt}
                         width={320}
                         height={320}
                         className="w-full h-full object-cover"
