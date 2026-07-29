@@ -115,13 +115,7 @@ export default function HrdcTrainingGuidePage() {
                   The Human Resource Development Corporation (HRDC) is a statutory body under the Ministry of Human Resources that regulates and promotes workforce training in Malaysia. It operates the HRD Levy (now known as the HRDC Levy) system, which funds structured employee development programs.
                 </p>
                 <p className="text-muted leading-relaxed mb-4">
-                  <strong className="text-foreground">Category 1 (Mandatory).</strong> Employers with 10 or more Malaysian employees must register and contribute 1% of monthly wages (basic salary plus fixed allowances).
-                </p>
-                <p className="text-muted leading-relaxed mb-4">
-                  <strong className="text-foreground">Category 2 (Voluntary).</strong> Employers with 5 to 9 Malaysian employees may choose to register and contribute 0.5% of monthly wages, gaining access to the same grant claims and training benefits.
-                </p>
-                <p className="text-muted leading-relaxed">
-                  <strong className="text-foreground">Exempt Category.</strong> Employers with fewer than 5 Malaysian employees are generally exempt from registration and contributions. Once registered, contributions accumulate in a levy account that can be used to claim training grants when employees attend approved training programs.
+                  Employers registered under the HRDC Act contribute a monthly levy based on their employee wages. These contributions accumulate in a levy account that can be used to claim training grants when employees attend approved training programs.
                 </p>
               </section>
 
